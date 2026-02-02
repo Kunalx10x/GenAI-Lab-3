@@ -1,12 +1,12 @@
 # GenAI-Lab-3
 # Variational Autoencoder (VAE) Implementation on MNIST
 
-## 📌 Overview
+## Overview
 This project implements a **Variational Autoencoder (VAE)** using PyTorch to generate handwritten digits from the MNIST dataset. Unlike standard autoencoders, this VAE learns a continuous latent space, allowing for the generation of **new, unseen data points** (generative modeling).
 
 This lab was completed as part of **CSET419: Introduction to Generative AI**.
 
-## 🧠 Key Concepts
+## Key Concepts
 - **Encoder:** Compresses input images (784 dimensions) into a latent probability distribution ($\mu, \sigma$).
 - **Reparameterization Trick:** Enables backpropagation through random sampling ($z = \mu + \sigma \cdot \epsilon$).
 - **Decoder:** Reconstructs images from the latent vector $z$.
